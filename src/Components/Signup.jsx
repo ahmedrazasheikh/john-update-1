@@ -1,7 +1,7 @@
 import React from 'react'
 import './LoginPage2.css'
 import image from '../assets/images/account-img.png'
-
+import { Link } from "react-router-dom";
 const LogInPage = () => {
   return (
     <div>

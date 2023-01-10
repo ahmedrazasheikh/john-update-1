@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.884a12b1.css",
-    "main.js": "/static/js/main.5f3ce1f3.js",
+    "main.css": "/static/css/main.f1c957ec.css",
+    "main.js": "/static/js/main.46036bda.js",
     "static/js/787.94dff286.chunk.js": "/static/js/787.94dff286.chunk.js",
     "static/media/jusdevoyage-img.png": "/static/media/jusdevoyage-img.e78bfa9b17d760df2288.png",
     "static/media/shorts.png": "/static/media/shorts.91babc2cf1b9d2c737fa.png",
@@ -49,24 +49,24 @@
     "static/media/coins-svgrepo-com.svg": "/static/media/coins-svgrepo-com.4c147682f84cd48d543a208fc5bf70c4.svg",
     "static/media/delete-icn.svg": "/static/media/delete-icn.f88f036bbf93ebb4b11ffb3d70c9f323.svg",
     "static/media/key-svgrepo-com.svg": "/static/media/key-svgrepo-com.128944b0b5d483a75efb85ff7d689276.svg",
-    "index.html": "/index.html",
     "static/media/diamond-svgrepo-com (2).svg": "/static/media/diamond-svgrepo-com (2).43f09787987d5fdcfb32dfbb7b578866.svg",
     "static/media/plus.svg": "/static/media/plus.653d49c7123ed2dd5c3167f3edb0abd4.svg",
     "static/media/shopping-icon.svg": "/static/media/shopping-icon.219c82de24aa551997457b54f2564d01.svg",
     "static/media/minus.svg": "/static/media/minus.8844ec4a3e8421eecbdea24670a6c2a4.svg",
     "static/media/number.svg": "/static/media/number.006fdc7acb12c1e7d3a12a974f8d919f.svg",
+    "index.html": "/index.html",
     "static/media/shipping-fast-solid-svgrepo-com (1).svg": "/static/media/shipping-fast-solid-svgrepo-com (1).385687f77815994b6e8d7f1aacf50c62.svg",
     "static/media/menu-icon.svg": "/static/media/menu-icon.3e6a52be46309a39bdb31704bef6a8d6.svg",
     "static/media/mail.svg": "/static/media/mail.680ce0c2cd67a93253e31a7fa9ab4f84.svg",
     "static/media/forward-icon.svg": "/static/media/forward-icon.6728f1b09b26c2e0ce39d7e006d3b928.svg",
     "static/media/cancel-svgrepo-com.svg": "/static/media/cancel-svgrepo-com.273300cd746370a0154240b9913f6d5b.svg",
     "static/media/user.svg": "/static/media/user.756257315459868740a849a646ef4b8a.svg",
-    "main.884a12b1.css.map": "/static/css/main.884a12b1.css.map",
-    "main.5f3ce1f3.js.map": "/static/js/main.5f3ce1f3.js.map",
+    "main.f1c957ec.css.map": "/static/css/main.f1c957ec.css.map",
+    "main.46036bda.js.map": "/static/js/main.46036bda.js.map",
     "787.94dff286.chunk.js.map": "/static/js/787.94dff286.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.884a12b1.css",
-    "static/js/main.5f3ce1f3.js"
+    "static/css/main.f1c957ec.css",
+    "static/js/main.46036bda.js"
   ]
 }

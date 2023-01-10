@@ -19,7 +19,7 @@ import AddtoCard from './Components/AddtoCard';
 import SignupForm2 from './Components/SignupForm2';
 import LogInPage from './Components/Signup';
 import Header from './Components/Header/Header';
-
+// import Third from './Components/third';
 
 function App() {
   return (
@@ -38,9 +38,8 @@ function App() {
       {/* <Login/> */}
       {/* <SignupForm/> */}
       {/* <SignupForm2/>       */}
-
+       {/* <Third/> */}
       {/* <AddtoCard/> */}
-
 
       <BrowserRouter>
         <Routes>

@@ -20,15 +20,15 @@ import boy from '../assets/images/member-2.jpg'
 import thirdboy from '../assets/images/member-3.jpg'
 import hidden from '../assets/images/Group-img.png'
 import shirt from '../assets/images/shirt-2.png'
-import cap from '../assets/images/home-hat.png'
-import hoode from '../assets/images/home-hoodies.png'
-import shirt2 from '../assets/images/home-tshirt.png'
+import homeHat from '../assets/images/home-hat.png'
+import homeHoodies from '../assets/images/home-hoodies.png'
+import homeTshirt from '../assets/images/home-tshirt.png'
 import rigth from '../assets/images/next-icon.png'
 import left from '../assets/images/prevew-icon.png'
-import troser from '../assets/images/home-shorts.png'
+import homeShorts from '../assets/images/home-shorts.png'
 import { Drawer, Button, Divider } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
-import shirtsdd from '../assets/images/shirt-2.png'
+import shirt2 from '../assets/images/shirt-2.png'
 import Header from './Header/Header';
 import Carousel from "react-elastic-carousel";
 
@@ -62,7 +62,7 @@ const Home = () => {
       <div className='bg-black py-1  text-center	  text-white'> Spend $50 for free shipping</div>
       <Header />
       <div className='mmmmiok' >
-       
+
 
 
 
@@ -74,8 +74,7 @@ const Home = () => {
             <h1 className='fgd mkjbbfss'>Do Well, Live Well &</h1> <br />
             <h1 className='fgd mkjbbfss'>Dress Really Well</h1><br />
             <p className='mkjbbfss awdw'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a tempus augue, id convallis est</p>
-            <Link to={'/SignupForm1'}><button className='iutrvh'>Shop Now!</button></Link> 
-            {/* <button className='iutrvh'>Shop Now!</button> */}
+            <button className='iutrvh'>Shop Now!</button>
           </div>
 
 
@@ -94,7 +93,7 @@ const Home = () => {
 
       <div className='rtfsecond'>
         <h1 className='mjhgre' >Best Selling Product</h1>
-        <p className='tyhvf'>
+        <p className='headfill2'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Proin a tempus augue, id convallis est. Nulla neque sapien,
           mattis at molestie id, auctor faucibus ligula. Pellentesque laoreet
@@ -126,190 +125,175 @@ const Home = () => {
 
       <Carousel breakPoints={breakPoints}>
 
-<div id="">
-  <div class="content-with-image">
-    <div class="image">
-      <img src={shirt} class="carousal-img img-fluid" />
-    </div>
+        <div id="">
+          <div class="content-with-image">
+            <div class="image">
+              <img src={shirt} class="carousal-img img-fluid" />
+            </div>
 
-    <div class="desc text-center">
-      <h2 >Menace Shirt Design</h2>
-    </div>
-  </div>
+            <div class="desc text-center">
+              <h2 >Menace Shirt Design</h2>
+            </div>
+          </div>
 
-  <div class="member-text text-center">
-    <h4>Menace Shirt Design</h4>
-    <p class="over-line">Retail: $90.00</p>
-    <p>3 For $30 (B1G2)</p>
-  </div>
+          <div class="member-text text-center">
+            <h4>Menace Shirt Design</h4>
+            <p class="over-line">Retail: $90.00</p>
+            <p>3 For $30 (B1G2)</p>
+          </div>
 
-  <div class="member-link text-center">
-    <a href="#">NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-  </div>
-</div>
-<div id="">
-  <div class="content-with-image">
-    <div class="image">
-      <img src={shirt} class="carousal-img img-fluid" />
-    </div>
+          <div class="member-link text-center">
+            <a href="#">NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div id="">
+          <div class="content-with-image">
+            <div class="image">
+              <img src={shirt} class="carousal-img img-fluid" />
+            </div>
 
-    <div class="desc text-center">
-      <h2 >Menace Shirt Design</h2>
-    </div>
-  </div>
+            <div class="desc text-center">
+              <h2 >Menace Shirt Design</h2>
+            </div>
+          </div>
 
-  <div class="member-text text-center">
-    <h4>Menace Shirt Design</h4>
-    <p class="over-line">Retail: $90.00</p>
-    <p>3 For $30 (B1G2)</p>
-  </div>
+          <div class="member-text text-center">
+            <h4>Menace Shirt Design</h4>
+            <p class="over-line">Retail: $90.00</p>
+            <p>3 For $30 (B1G2)</p>
+          </div>
 
-  <div class="member-link text-center">
-    <a href="#">NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-  </div>
-</div>
-<div id="">
-  <div class="content-with-image">
-    <div class="image">
-      <img src={shirt} class="carousal-img img-fluid" />
-    </div>
+          <div class="member-link text-center">
+            <a href="#">NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div id="">
+          <div class="content-with-image">
+            <div class="image">
+              <img src={shirt} class="carousal-img img-fluid" />
+            </div>
 
-    <div class="desc text-center">
-      <h2 >Menace Shirt Design</h2>
-    </div>
-  </div>
+            <div class="desc text-center">
+              <h2 >Menace Shirt Design</h2>
+            </div>
+          </div>
 
-  <div class="member-text text-center">
-    <h4>Menace Shirt Design</h4>
-    <p class="over-line">Retail: $90.00</p>
-    <p>3 For $30 (B1G2)</p>
-  </div>
+          <div class="member-text text-center">
+            <h4>Menace Shirt Design</h4>
+            <p class="over-line">Retail: $90.00</p>
+            <p>3 For $30 (B1G2)</p>
+          </div>
 
-  <div class="member-link text-center">
-    <a href="#">NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-  </div>
-</div>
-<div id="">
-  <div class="content-with-image">
-    <div class="image">
-      <img src={shirt} class="carousal-img img-fluid" />
-    </div>
+          <div class="member-link text-center">
+            <a href="#">NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div id="">
+          <div class="content-with-image">
+            <div class="image">
+              <img src={shirt} class="carousal-img img-fluid" />
+            </div>
 
-    <div class="desc text-center">
-      <h2 >Menace Shirt Design</h2>
-    </div>
-  </div>
+            <div class="desc text-center">
+              <h2 >Menace Shirt Design</h2>
+            </div>
+          </div>
 
-  <div class="member-text text-center">
-    <h4>Menace Shirt Design</h4>
-    <p class="over-line">Retail: $90.00</p>
-    <p>3 For $30 (B1G2)</p>
-  </div>
+          <div class="member-text text-center">
+            <h4>Menace Shirt Design</h4>
+            <p class="over-line">Retail: $90.00</p>
+            <p>3 For $30 (B1G2)</p>
+          </div>
 
-  <div class="member-link text-center">
-    <a href="#">NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-  </div>
-</div>
-<div id="">
-  <div class="content-with-image">
-    <div class="image">
-      <img src={shirt} class="carousal-img img-fluid" />
-    </div>
+          <div class="member-link text-center">
+            <a href="#">NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div id="">
+          <div class="content-with-image">
+            <div class="image">
+              <img src={shirt} class="carousal-img img-fluid" />
+            </div>
 
-    <div class="desc text-center">
-      <h2 >Menace Shirt Design</h2>
-    </div>
-  </div>
+            <div class="desc text-center">
+              <h2 >Menace Shirt Design</h2>
+            </div>
+          </div>
 
-  <div class="member-text text-center">
-    <h4>Menace Shirt Design</h4>
-    <p class="over-line">Retail: $90.00</p>
-    <p>3 For $30 (B1G2)</p>
-  </div>
+          <div class="member-text text-center">
+            <h4>Menace Shirt Design</h4>
+            <p class="over-line">Retail: $90.00</p>
+            <p>3 For $30 (B1G2)</p>
+          </div>
 
-  <div class="member-link text-center">
-    <a href="#">NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-  </div>
-</div>
-<div id="">
-  <div class="content-with-image">
-    <div class="image">
-      <img src={shirt} class="carousal-img img-fluid" />
-    </div>
+          <div class="member-link text-center">
+            <a href="#">NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div id="">
+          <div class="content-with-image">
+            <div class="image">
+              <img src={shirt} class="carousal-img img-fluid" />
+            </div>
 
-    <div class="desc text-center">
-      <h2 >Menace Shirt Design</h2>
-    </div>
-  </div>
+            <div class="desc text-center">
+              <h2 >Menace Shirt Design</h2>
+            </div>
+          </div>
 
-  <div class="member-text text-center">
-    <h4>Menace Shirt Design</h4>
-    <p class="over-line">Retail: $90.00</p>
-    <p>3 For $30 (B1G2)</p>
-  </div>
+          <div class="member-text text-center">
+            <h4>Menace Shirt Design</h4>
+            <p class="over-line">Retail: $90.00</p>
+            <p>3 For $30 (B1G2)</p>
+          </div>
 
-  <div class="member-link text-center">
-    <a href="#">NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-  </div>
-</div>
-</Carousel>
-<br />
+          <div class="member-link text-center">
+            <a href="#">NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </Carousel>
+      <br />
 
 
       <div className=' ghdsaaaasa bg-black  text-white'>
         <h1 className='head1bg' >Your Choice Counts</h1>
         <h3 className='head3bg'>Choose what design you'd like to see us add an d get an extra special discount.</h3>
-        <Link to={'/SignupForm1'}><button className='iutrvh'>Continue!</button></Link> 
-        
+        <button className='iutrvh'>Continue!</button>
       </div>
 
-<br />
-<br />
-<br />
+      <br />
+      <br />
+      <br />
 
 
 
       {/* FiFth Part */}
 
 
-      
+
       <div className='fifth   '>
         <div className='flex flex-col' >
           <h1 className='bsafdjaus'>About Tatsu Threads</h1>
-
-          {/* Inner First */}
           <div className='nono'>
-            {/* i i First  */}
             <div className='mokli'>
               <img src={short} alt="" />
             </div>
             <div className='fokli'>
-              {/* <img src={hidden} alt="" /> */}
               <img className='filterqwe' src={mesurment} alt="" />
-              <p className='versetter '>
-
-
+              <p className='headfill2 text-white'>
                 lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
                 sed euismod libero nec arcu vehicula congue. pellentesque lacinia
-
                 lobortis efficitur. mauris vel ipsum mi. mauris lacus tellus.
-
               </p>
-
             </div>
-
-
           </div>
 
-
-          {/*  Second  Inner */}
           <div className='eflsonkkh'>
             <div>
               <img src={person} alt="" />
             </div>
             <div className='msahduasduasb' >
-              <img src={tag}  className="oikl"   alt="" />
+              <img src={tag} className="oikl" alt="" />
             </div>
           </div>
 
@@ -317,6 +301,56 @@ const Home = () => {
         </div>
 
       </div>
+
+      {/* <section id="teck-about-section" class="teck-about-section">
+
+        <div class="container">
+
+          <div class="row">
+
+            <h3>About Tatsu Threads</h3>
+
+            <div class="col-lg-7 teck-boxers-img">
+              <img src={short} class="boxers-img img-fluid" alt="" />
+              <div class="group-img">
+                <a href="#">
+                  <img src={short} class="img-fluid" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-12 col-sm-12  teck-siora-img">
+              <img src={mesurment} class="siora img-fluid" alt="" />
+              <p>
+
+                lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                sed euismod libero nec arcu vehicula congue. pellentesque lacinia
+                lobortis efficitur. mauris vel ipsum mi. mauris lacus tellus.
+              </p>
+
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6 teck-man-img">
+                <img src={person} class="jusdevoyage-img img-fluid" alt="" />
+                <div class="group-img">
+                  <a href="#">
+                  <img src={person} class=" img-fluid" alt="" />
+                </a>
+                </div>
+              </div>
+
+              <div class="col-lg-6 teck-crown-img">
+                <img src={tag} class="crown-img img-fluid" alt="" />
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section> */}
 
 
 
@@ -341,7 +375,6 @@ const Home = () => {
 
 
       <div className='cng'>
-        {/* One */}
 
 
         <div className='zxczxczx notcallhonkdfs		flex-col  flex '>
@@ -351,7 +384,8 @@ const Home = () => {
           <h3 className='my-2'>3 For $30 (B1G2)</h3>
           <h3 className=' text-sm	 font-bold' >NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></h3>
         </div>
-        {/*Two  */}
+
+
         <div className='zxczxczx notcallhonkdfs	mt-16	flex-col  flex	'>
           <img src={boy} alt="" />
           <h3 className='mt-6  text-xl font-bold'>Menace Shirt Design</h3>
@@ -359,69 +393,116 @@ const Home = () => {
           <h3 className='my-2'>3 For $30 (B1G2)</h3>
           <h3 className=' text-sm	 font-bold' >NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></h3>
         </div>
-        {/* Third */}
+
+
         <div className='zxczxczx notcallhonkdfs		flex-col  flex'>
           <img src={thirdboy} alt="" />
           <h3 className='mt-6  text-xl font-bold'>Menace Shirt Design</h3>
           <h3 className=' my-2  '>Retail: $90.00</h3>
           <h3 className='my-2'>3 For $30 (B1G2)</h3>
           <h3 className=' text-sm	 font-bold' >NEW VIP MEMEBERSHIP OFFER <i class="fa fa-caret-right" aria-hidden="true"></i></h3>
+
         </div>
       </div>
 
       {/* Eight  */}
+      <br />
+      <br />
+      <br />
 
-      <div className='vfghj  mt-25'>
-        <div className=' zxczsaasamnj  ' >
+      <div class="row flex">
+        <div class="col-xs-12 col-sm-6" >
+          <h1 id='teck-colllection-text'>Once Again tatsuthreads defies
+            the odds with the 2k22
+            Collection</h1>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+          <p className='' id='teck-colllection-textParagraf'>
+            lorem ipsum dolor sit amet, consectetur adipiscing elit. sed euismod libero nec
+            arcu vehicula congue. pellentesque lacinia lobortis efficitur. mauris vel ipsum mi
+            . mauris lacus tellus.lorem ipsum dolor sit amet, consectetur adipiscing elit. sed
+            euismod libero nec arcu vehicula congue.
+            <br />
+            <button className='iutrvh'>DISCOVER US</button>
+            <div class="teck-hr">
+              <hr />
+            </div>
+          </p>
 
-          <div className='tyu'>
-            <h1  >Once Again tatsuthreads defies
-              the odds with the 2k22
-              Collection</h1>
-          </div>
-          <div>
-            <p className='text-xl'>
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. sed euismod libero nec
-              arcu vehicula congue. pellentesque lacinia lobortis efficitur. mauris vel ipsum mi
-              . mauris lacus tellus.lorem ipsum dolor sit amet, consectetur adipiscing elit. sed
-              euismod libero nec arcu vehicula congue.
-            </p>
-<br />
-            <hr className='czczxczxnn' />
-<br />
-<Link to={'/SignupForm1'}><button className='iutrvh'>Shop Now!</button></Link> 
-            {/* <button className='iutrvh'>Shop Now!</button> */}
-          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12">
+
         </div>
       </div>
+
       {/* Nine  */}
 
 
-      <div className='flex   mnjgjv'  >
-        <div className='basis-1/6	'>
-          <img src={shirt} alt="" />
-          <h4 className='kmigj'>T-Shirt</h4>
-        </div>
-        <div className='basis-1/6'>
-          <img src={cap} alt="" />
-          <h4 className='kmigj'>Hats</h4>
-        </div>
-        <div className='basis-1/6'>
-          <img src={hoode} alt="" />
-          <h4 className='kmigj'>Hoodies</h4>
-        </div>
-        <div className='basis-1/6'>
-          <img src={shirt2} alt="" />
-          <h4 className='kmigj'>Joggers</h4>
-        </div>
-        <div className='basis-1/6'>
-          <img src={troser} alt="" />
-          <h4 className='kmigj'>Shorts</h4>
-        </div>
-      </div>
 
 
       {/* Footer */}
+      <section>
+        <div id="our-collection"> <h1>Our Collection</h1></div>
+        <div class="flex flex-wrap justify-center">
+          <div class="flex flex-col w-full m-6 overflow-hidden sm:w-52">
+            <div class="tatsu-collection">
+              <img src={homeTshirt} class="img-fluid" />
+            </div>
+            <div class="product-name">
+              <h4>Joggers</h4>
+            </div>
+          </div>
+
+          <div class="flex flex-col w-full m-6 overflow-hidden sm:w-52">
+            {/* <img src="images/database-icon.svg" alt="" class="h-20 m-6" />
+          <h2 class="text-center px-2 pb-5">Database Support</h2>
+          <a href="#" class="bg-blue-500 text-white p-3 text-center hover:bg-blue-800 transition-all duration-500">Know More</a> */}
+            <div class="tatsu-collection">
+              <img src={homeHat} class="img-fluid" />
+            </div>
+            <div class="product-name">
+              <h4>Hats</h4>
+            </div>
+
+          </div>
+
+
+
+          <div class="flex flex-col w-full m-6 overflow-hidden sm:w-52">
+            <div class="tatsu-collection">
+              <img src={homeHoodies} class="img-fluid" />
+            </div>
+            <div class="product-name">
+              <h4>Hoodies</h4>
+            </div>
+          </div>
+
+
+
+          <div class="flex flex-col w-full m-6 overflow-hidden sm:w-52">
+            <div class="tatsu-collection">
+              <img src={homeTshirt} class="img-fluid" />
+            </div>
+            <div class="product-name">
+              <h4>Joggers</h4>
+            </div>
+          </div>
+
+
+
+          <div class="flex flex-col w-full m-6 overflow-hidden sm:w-52">
+            <div class="tatsu-collection">
+              <img src={homeShorts} class="img-fluid" />
+            </div>
+            <div class="product-name">
+              <h4>Shorts</h4>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
 
 
       <div class="pg-footer">
@@ -515,7 +596,7 @@ const Home = () => {
               </div>
               <div class="footer-call-to-action">
                 <h2 class="footer-call-to-action-title"> You Call Us</h2>
-                <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self"> Ahmed</a></p>
+                <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self"> 03456272088</a></p>
               </div>
             </div>
 

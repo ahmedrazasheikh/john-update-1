@@ -11,9 +11,10 @@ import Menu from '@mui/material/Menu';
 import man from '../../assets/images/user.svg'
 import shopping from '../../assets/images/shopping-icon.svg'
 import logo from '../../assets/images/header-logo-1.svg'
-
-
+import bb from '../../assets/images/menu-icon.svg'
 import caroImage from '../../assets/images/banner-img.png'
+import { positions } from "@mui/system";
+
 
 export default function Header() {
 
@@ -35,7 +36,9 @@ export default function Header() {
             outline: "none",
             color: "black",
             border: "none",
-            fontSize: 26
+            fontSize: 26,
+            position : "relative",
+            left : 50
         },
     };
 
@@ -55,7 +58,7 @@ export default function Header() {
                     {/* </nav> */}
                    
 
-                    {/* <img src={logo} alt="" /> */}
+                    <img src={logo} alt="" />
 
                     {/* Inner Logo */}
                     <div className='setrtmn'>

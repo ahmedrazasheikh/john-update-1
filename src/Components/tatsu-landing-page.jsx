@@ -11,6 +11,7 @@ import a from '../assets/images/trending-product-1.png'
 import b from '../assets/images/trending-product-2.png'
 import c from '../assets/images/trending-product-3.png'
 import dd from  '../assets/images/footer-logo.png'
+import { Link } from 'react-router-dom'
 const Tatsu = () => {
   
   return (
@@ -32,7 +33,8 @@ const Tatsu = () => {
 <div   className="h-40 	justify-center notYouTyp	flex-col items-center	  flex bg-black text-white  mt-1">
   <span  className='text-xl native'>VIP MEMBERSHIP OFFERS</span>
   <span  className='text-2xl native2'>BUY ONE, GET TWO FREE T-SHIRTS</span>
-  <a class="mashdbiuasj" href="#" role="button">SHOP NOW!</a>
+  <Link to={'/SignupForm1'}><a class="mashdbiuasj" href="#" role="button">SHOP NOW!</a></Link> 
+  
 </div>
 
 </div>

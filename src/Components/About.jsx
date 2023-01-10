@@ -8,7 +8,7 @@ import './Contact.css'
 import './Contact-us.css';
 import './Contact2.css.css';
 import Header from './Header/Header'
-
+import { Link } from 'react-router-dom'
 const Contact = () => {
 
 
@@ -25,7 +25,7 @@ const Contact = () => {
           {/* <h1  className='fgd mkjbbfss'></h1> */}
           <p className='mkjbbfss awdw notfillmine'>Life shouldn't be so black & white. <br />
             The Brightest flame casts the <br /> darkest shadow.</p>
-          <button className='iutrvh'>Shop Now!</button>
+            <Link to={'/SignupForm1'}><button className='iutrvh'>Shop Now!</button></Link>   
         </div>
 
 

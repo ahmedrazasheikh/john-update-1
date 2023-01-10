@@ -74,7 +74,8 @@ const Home = () => {
             <h1 className='fgd mkjbbfss'>Do Well, Live Well &</h1> <br />
             <h1 className='fgd mkjbbfss'>Dress Really Well</h1><br />
             <p className='mkjbbfss awdw'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a tempus augue, id convallis est</p>
-            <button className='iutrvh'>Shop Now!</button>
+            <Link to={'/SignupForm1'}><button className='iutrvh'>Shop Now!</button></Link> 
+            {/* <button className='iutrvh'>Shop Now!</button> */}
           </div>
 
 
@@ -258,7 +259,8 @@ const Home = () => {
       <div className=' ghdsaaaasa bg-black  text-white'>
         <h1 className='head1bg' >Your Choice Counts</h1>
         <h3 className='head3bg'>Choose what design you'd like to see us add an d get an extra special discount.</h3>
-        <button className='iutrvh'>Continue!</button>
+        <Link to={'/SignupForm1'}><button className='iutrvh'>Continue!</button></Link> 
+        
       </div>
 
 <br />
@@ -387,8 +389,8 @@ const Home = () => {
 <br />
             <hr className='czczxczxnn' />
 <br />
-       
-            <button className='iutrvh'>Shop Now!</button>
+<Link to={'/SignupForm1'}><button className='iutrvh'>Shop Now!</button></Link> 
+            {/* <button className='iutrvh'>Shop Now!</button> */}
           </div>
         </div>
       </div>

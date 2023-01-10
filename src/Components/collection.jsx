@@ -8,6 +8,7 @@ import Hoddie from '../assets/images/hoodies.png'
 import Cap from '../assets/images/hats.png'
 import caroImage from '../assets/images/banner-img.png'
 import Header from '../Components/Header/Header'
+import { Link } from 'react-router-dom'
 
 const Collection = () => {
   return (
@@ -20,7 +21,7 @@ const Collection = () => {
           <h1 className='fgd mkjbbfss  mr-20'>Tatsu Threads Products</h1> <br />
           <h1 className='fgd mkjbbfss'>Life shouldn't be so black & white. <br />
             The Brightest flame casts the darkest shadow.</h1><br />
-          <button className='iutrvh'>Shop Now!</button>
+            <Link to={'/SignupForm1'}><button className='iutrvh'>Shop Now!</button></Link>
         </div>
 
 
@@ -50,7 +51,8 @@ const Collection = () => {
                     Vestibulum interdum malesuada metus et porttitor. Suspendisse potenti. Integer sed risus finibus, fermentum nibh et, pellentesque metus.<br /><br />
 
                     Curabitur tristique nunc vel metus vestibulum luctus. Vestibulum interdum malesuada metus et porttitor</p>
-                  <a class="teck-selling-btn button32432 mt-3" href="#" role="button">SHOP NOW!</a>
+                    <Link to={'/SignupForm1'}><a class="teck-selling-btn button32432 mt-3" href="#" role="button">SHOP NOW!</a></Link> 
+                  
 
                 </div>
 
@@ -72,7 +74,8 @@ const Collection = () => {
                     Vestibulum interdum malesuada metus et porttitor. Suspendisse potenti. Integer sed risus finibus, fermentum nibh et, pellentesque metus.<br /><br />
 
                     Curabitur tristique nunc vel metus vestibulum luctus. Vestibulum interdum malesuada metus et porttitor</p>
-                  <a class="teck-selling-btn button32432 mt-3" href="#" role="button">SHOP NOW!</a>
+                    <Link to={'/SignupForm1'}><a class="teck-selling-btn button32432 mt-3" href="#" role="button">SHOP NOW!</a></Link>
+                  
 
                 </div>
 
@@ -104,7 +107,8 @@ const Collection = () => {
                     Vestibulum interdum malesuada metus et porttitor. Suspendisse potenti. Integer sed risus finibus, fermentum nibh et, pellentesque metus.<br /><br />
 
                     Curabitur tristique nunc vel metus vestibulum luctus. Vestibulum interdum malesuada metus et porttitor</p>
-                  <a class="teck-selling-btn button32432 mt-3" href="#" role="button">SHOP NOW!</a>
+                    <Link to={'/SignupForm1'}><a class="teck-selling-btn button32432 mt-3" href="#" role="button">SHOP NOW!</a></Link>
+                  
 
                 </div>
 
@@ -126,7 +130,8 @@ const Collection = () => {
                     Vestibulum interdum malesuada metus et porttitor. Suspendisse potenti. Integer sed risus finibus, fermentum nibh et, pellentesque metus.<br /><br />
 
                     Curabitur tristique nunc vel metus vestibulum luctus. Vestibulum interdum malesuada metus et porttitor</p>
-                  <a class="teck-selling-btn button32432 mt-3" href="#" role="button">SHOP NOW!</a>
+                    <Link to={'/SignupForm1'}><a class="teck-selling-btn button32432 mt-3" href="#" role="button">SHOP NOW!</a></Link>
+                  
 
                 </div>
 
@@ -157,7 +162,8 @@ const Collection = () => {
                     Vestibulum interdum malesuada metus et porttitor. Suspendisse potenti. Integer sed risus finibus, fermentum nibh et, pellentesque metus.<br /><br />
 
                     Curabitur tristique nunc vel metus vestibulum luctus. Vestibulum interdum malesuada metus et porttitor</p>
-                  <a class="teck-selling-btn button32432 mt-3  " href="#" role="button">SHOP NOW!</a>
+                    <Link to={'/SignupForm1'}><a class="teck-selling-btn button32432 mt-3  " href="#" role="button">SHOP NOW!</a></Link>
+                  
 
                 </div>
 

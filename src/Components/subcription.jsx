@@ -11,7 +11,7 @@ import vv from '../assets/images/memeber-img.png'
 import cross from '../assets/images/cancel-svgrepo-com.svg'
 import caroImage from '../assets/images/banner-img.png'
 import Header from './Header/Header'
-
+import { Link } from 'react-router-dom'
 
 const Subcription = () => {
   return (
@@ -25,7 +25,8 @@ const Subcription = () => {
           {/* <h1  className='fgd mkjbbfss'></h1> */}
           <p className='mkjbbfss awdw notfillmine'>Life shouldn't be so black & white. <br />
             The Brightest flame casts the darkest shadow.</p>
-          <button className='iutrvh'>Shop Now!</button>
+          {/* <button className='iutrvh'>Shop Now!</button> */}
+          <Link to={'/SignupForm1'}><button className='iutrvh'>Shop Now!</button></Link> 
         </div>
 
 

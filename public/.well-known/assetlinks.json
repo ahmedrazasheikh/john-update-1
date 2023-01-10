@@ -1,0 +1,6 @@
+[{
+        "relation": ["delegate_permission/common.handle_all_urls"],
+        "target" : { "namespace": "android_app", "package_name": "app.web.ahmedraza_calc.twa",
+                     "sha256_cert_fingerprints": ["46:27:6A:D6:27:20:16:1D:63:0E:CD:4E:68:2B:6E:A5:41:AD:ED:A1:D4:BD:A3:6C:E1:C8:9D:84:7E:BA:0F:5B"] }
+      }
+]

@@ -12,7 +12,7 @@ const DashbordOrderAdmin = () => {
   <div className='flex  kjhiasuxva items-center'>
   <img src={logo} alt="" />
   <div className=" flex flex-col">
-  <h3  className='text-2xl'>John Carter</h3> 
+  <h3  className='text-2xl'>Ahmed</h3> 
   <h5 className='ali text-blue-600 ' >ADMIN</h5>
   </div>
   </div>
@@ -37,7 +37,7 @@ const DashbordOrderAdmin = () => {
                 </ul>
     </div>
     <div className="inner  flex flex-col pl-6	   ">
-    <span className='sssf max-w-80' >Hello! Mike Procic</span>
+    <span className='sssf max-w-80' >Hello! Ahmed</span>
     <div  className='sssss'>
 
     <p className='oolol' >From your account dashboard, you can view your recent orders, manage your shipping and billing addresses, and edit your password and account details.</p>

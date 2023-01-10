@@ -37,9 +37,12 @@ const LogInPage = () => {
 				
 					
 					<div class="container-login100-form-btn">
+
+						<Link to={'/SignupForm3'} >
 						<button class="login100-form-btn">
 							Login
 						</button>
+						</Link>
 					</div>
 
 					<div class="text-center p-t-12">

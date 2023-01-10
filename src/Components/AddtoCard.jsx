@@ -12,50 +12,15 @@ import shopping from '../assets/images/shopping-icon.svg'
  import dd from  '../assets/images/footer-logo.png'
  import image from './images/veg.png'
  import caroImage from '../assets/images/banner-img.png'
- 
+ import Header from './Header/Header';
 
 const AddtoCard = () => {
     const [product1,Setproduct1 ] = useState(2)
     const [product2,Setproduct2 ] = useState(1)
   return (
     <div>
-      <div  className='bg-black  text-white'> Spend $50 for free shipping</div>
-      <div className='mmmmiok' >
-        <div className='mmnnhhyy'>
-          <img src={bb} className='sasaasjmj' alt="Not Found" />
-
-          <img src={logo} alt="" />
-
-          {/* Inner Logo */}
-          <div className='setrtmn'>
-            <img className='pr-3' src={man} alt="" />
-
-            <span className='text-white pr-3' > |</span>
-            <img className='pr-3' src={shopping} alt="" />
-
-          </div>
-
-        </div>
-
-
-
-        {/* Second */}
-
-        <div className='mmqqoop'>
-
-          <div className='iiyytt'>
-            
-          </div>
-
-
-          <div className='ffmmkklloo'>
-            {/* <img src={caroImage} alt="" /> */}
-          </div>
-        </div>
-
-
-
-      </div>
+      <div className='bg-black py-1  text-center	  text-white'> Spend $50 for free shipping</div>
+      <Header />
 
 
 

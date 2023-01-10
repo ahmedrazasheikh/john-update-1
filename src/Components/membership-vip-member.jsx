@@ -12,7 +12,7 @@ const MembershipVip = () => {
   <div className='flex  items-center'>
   <img src={logo} alt="" />
   <div className=" flex flex-col">
-  <h3  className='text-2xl'>John Carter</h3> 
+  <h3  className='text-2xl'>Ahmed</h3> 
   <h5 className='ali text-blue-600 ' >ADMIN</h5>
   </div>
   </div>

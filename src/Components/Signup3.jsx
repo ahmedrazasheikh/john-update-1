@@ -60,8 +60,8 @@ const Signup3 = () => {
 </div>
 
 <div>
-<Link to={'/SignupForm2'}><button  className='VButoontherS'>Previous</button></Link>
-<Link to={'/SignupForm3'}><button  className='VButoontherS'>Next Step</button></Link></div>
+<Link to={'/Login'}><button  className='VButoontherS'>Previous</button></Link>
+<Link to={'/AddtoCard'}><button  className='VButoontherS'>Next Step</button></Link></div>
 
 
 </div>
